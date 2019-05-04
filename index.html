@@ -1,0 +1,309 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--JavaScript-->
+    <script src="js/backToTop.js"></script>
+
+    <!--main.css-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--google.fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+
+    <!--fontawesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+    <title>Home</title>
+
+    <link rel="icon" href="slike/logo.png" type="image/gif" sizes="16x16">
+
+
+</head>
+
+<body>
+    <!--pocetak nav-->
+    <nav class="navbar navbar-expand-md navbar-dark  transparent fixed-top ">
+
+        <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#nav-content"
+            aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+        </button>
+        <a href="#" class="navbar-brand title text-center"><img id="logo" src="slike/logo.png">Picerija Mikelandjelo</a>
+        <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="registracija.html" class="nav-link">Registruj se</a>
+                </li>
+
+            </ul>
+            <div style="display:none" id="info">
+                <p id="content"></p>
+            </div>
+        </div>
+
+    </nav>
+    <!--kraj nav-->
+
+    <!--pocetak header-->
+    <header id="banner" class="container-fluid">
+
+
+        <div class="row box">
+            <div class="col-sm-6 col-md-7 heading">
+                <h1><span style="font-size:30px; padding: 10px;">Tel:064/555-333<br>Picerija</span><br> Mikelandjelo</h1>
+                <p class="lead">Dostavljamo kvalitet na vreme</p>
+            </div>
+
+            <div class="col-sm-6 col-md-5 text-center ">
+                <div class="card card-body ml-auto">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" id="pass"
+                                placeholder="Password">
+                        </div>
+
+                        <button type="submit" id="login" value="Login" btn-primary>Submit</button>
+
+                    </form>
+                    <a id="signup" href="registracija.html"></a>
+
+                    <div style="display:none" id="info">
+                        <p id="content"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--kraj header-->
+
+
+    <!--section istaknute-->
+
+    <section id="istaknute" class="container-fluid">
+        <div class="title text-center">
+            <h1>Istaknute</h1>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-6 margin">
+                <div class="card card-body">
+                    <img src="slike/vegeterijana.jpg" class="img-fluid" alt="">
+                    <div class="card-title">
+                        <h4>Vegeterijana</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="muted"> pelat, sir, kukuruz, paradajz, paprika, pečurke, masline, feta</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 margin">
+                <div class="card card-body">
+                    <img src="slike/pica10.jpg" class="img-fluid">
+                    <div class="card-title">
+                        <h4>Capricciosa</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="muted"> pelat, šunka, pečurke, sir, masline</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 margin">
+                <div class="card card-body">
+                    <img src="slike/pica9.jpg" class="img-fluid">
+                    <div class="card-title">
+                        <h4>Divlji zapad</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="muted"> pelat, mocarela, slanina, ruzmarin, papričica</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 margin">
+                <div class="card card-body">
+                    <img src="slike/pica12.jpg" class="img-fluid">
+                    <div class="card-title">
+                        <h4>Specijal</h4>
+                    </div>
+                    <div class="card-text">
+                        <p class="muted"> pelat, šunka, slanina, sir, crveni luk, jaje, kulen</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--kraj section istaknute-->
+
+    <!--pocetak section team-->
+    <section id="team" class="container-fluid">
+        <div class="title text-center">
+            <h1>Majstorski tim</h1>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4 top-two">
+                <div class="card card-body">
+                    <!-- slika-->
+                    <img class="img-fluid" src="slike/slika3.jpg">
+                    <div class="card-body ">
+                        <div class="card-title">Luidji</div>
+                        <div class="card-text">Majstor pecenja pica u peći na drva velikog iskustva.</div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 col-md-4 top-two">
+                <div class="card card-body">
+                    <!-- slika-->
+                    <img class="img-fluid" src="slike/slika1.jpg">
+                    <div class="card-body">
+                        <div class="card-title">Mario</div>
+                        <div class="card-text">Sef  </div> 
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card card-body">
+                    <!-- slika-->
+                    <img class="img-fluid" src="slike/slika2.jpg">
+                    <div class="card-body">
+                        <div class="card-title">Zoki</div>
+                        <div class="card-text">Majstor vegeterijanskih pica sa velikim iskustvom.</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </div>
+    </section>
+
+    <!--kraj section team-->
+
+
+
+    <!--footer pocetak-->
+    <section id="footer" class="container-fluid">
+        <div class="title text-center">
+            <h1>Picerija Mikelandjelo</h1>
+            <div class="title-underline"><img id="logo" src="slike/logo.png"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-12 text-center">
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="copy">Copyright &copy; 2019 MS</div>
+            </div>
+        </div>
+    </section>
+    <!--footer kraj-->
+
+    <!--backToTop dugme-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+
+
+    <!--login skripta-->
+
+    <script>
+
+        document.getElementById("login").addEventListener("click", login);
+
+        function login(event) {
+            event.preventDefault();
+
+            const email = document.getElementById("email").value;
+            const pass = document.getElementById("pass").value;
+
+            const users = JSON.parse(localStorage.getItem("users"));
+            //const registeredUser = 
+            //users ?
+            //users.find(user => user.username === username && user.pass === pass)
+            //: null;
+
+            // Gornji izraz const registeredUser = ... je fensi nacin da uradimo sledecu stvar:
+            let registeredUser; // ovde mora let umesto const jer ga posle definicije menjam
+            if (users) {
+                registeredUser = users.find(user => user.email === email && user.pass === pass);
+            } else {
+                registeredUser = null;
+            }
+
+            if (registeredUser) { // ovo je uspesan login
+                const firstname = registeredUser.firstname;
+                const lastname = registeredUser.lastname;
+
+                document.getElementById("loginForm").style.display = "none";
+                document.getElementById("signup").style.display = "none";
+                document.getElementById("info").style.display = "block";
+                document.getElementById("content").innerHTML = `${firstname} ${lastname} logged in`;
+
+           
+
+                usersTableHtml += "</table>";
+
+                document.getElementById("content").innerHTML;
+            } else {
+                alert(`Pogresan username/password!`);
+            }
+        }
+
+    </script>
+</body>
+
+
+
+</html>
