@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--JavaScript-->
+    <script src="js/backToTop.js"></script>
+    
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="css/galerija.css">
+
+    <!--google.fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+
+    <!--fontawesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>Galerija</title>
+
+    <link rel="icon" href="slike/logo.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+
+    <!--pocetak nav-->
+    <nav class="navbar navbar-expand-md navbar-dark  transparent ">
+
+        <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#nav-content"
+            aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+        </button>
+        <a href="index.html" class="navbar-brand mr-auto"><img id="logo" src="slike/logo.png">Mikelandjelo</a>
+        <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="registracija.html" class="nav-link">Registruj se</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <!--kraj nav-->
+
+    <header id="banner" class="container-fluid">
+
+        <div class="container">
+            <div class="main-img">
+                <img src="slike/vegeterijana.jpg" id="current">
+            </div>
+            <div class="imgs">
+                <img src="slike/pica13.jpg">
+                <img src="slike/pica1.jpg">
+                <img src="slike/pica2.jpg">
+                <img src="slike/pica3.jpg">
+                <img src="slike/pica4.jpg">
+                <img src="slike/pica11.jpg">
+                <img src="slike/pica6.jpg">
+                <img src="slike/pica7.jpg">
+                <img src="slike/pica8.jpg">
+                <img src="slike/pica9.jpg">
+                <img src="slike/pica10.jpg">
+                <img src="slike/pica12.jpg">
+
+            </div>
+        </div>
+
+    </header>
+    <!--kraj header-->
+
+
+    <!--footer pocetak-->
+    <section id="footer" class="container-fluid">
+        <div class="title text-center">
+            <h1>Picerija Mikelandjelo</h1>
+            <div class="title-underline"><img id="logo" src="slike/logo.png"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-12 text-center">
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="copy"> Copyright &copy; 2019 MS</div>
+            </div>
+        </div>
+    </section>
+    <!--footer kraj-->
+    
+     <!--backToTop dugme-->
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+     <script src="js/galerija.js"></script>
+     
+</body>
+
+</html>
