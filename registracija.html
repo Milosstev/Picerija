@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/registracija.css">
+
+     <!--JavaScript-->
+     <script src="js/backToTop.js"></script>
+
+     <!--google.fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+
+    <!--fontawesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <title>Registracija</title>
+
+        <link rel="icon" href="slike/logo.png" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+    <!--pocetak nav-->
+    <nav class="navbar navbar-expand-md navbar-dark  transparent ">
+
+        <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#nav-content"
+            aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+        </button>
+        <a href="index.html" class="navbar-brand mr-auto"><img id="logo" src="slike/logo.png">Mikelandjelo</a>
+        <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                    <a href="galerija.html" class="nav-link">Galerija</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="registracija.html" class="nav-link">Registruj se</a>
+                </li>
+               
+            </ul>
+        </div>
+
+    </nav>
+    <!--kraj nav-->
+
+    <!--pocetak header-->
+    <header id="banner" class="container-fluid">
+
+
+        <div class="row box">
+            <div class="col-sm-4 col-md-7 heading">
+                <h1>Registruj se</h1>
+                <p class="lead">ostvari popust od 10% i budi u toku sa nasim najnovijim proizvodima i promocijama.</p>
+
+            </div>
+
+            <div class="col-sm-8 col-md-5 text-center ">
+                <div class="card card-body ml-auto">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" id="firstname" placeholder="Ime">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" id="lastname"
+                                placeholder="Prezime">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" data-error="wrong" class="form-control form-control-lg" id="email"
+                                placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" id="pass"
+                                placeholder="Password">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control form-control-lg" id="pass2"
+                                placeholder="Ponovi Password">
+                        </div>
+
+                        <button type="submit" id="signup" value="Login" btn-primary>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--kraj header-->
+
+
+    <!--footer pocetak-->
+    <section id="footer" class="container-fluid">
+        <div class="title text-center">
+            <h1>Picerija Mikelandjelo</h1>
+            <div class="title-underline"><img id="logo" src="slike/logo.png"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-12 text-center">
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="copy">Copyright &copy; 2019 MS</div>
+            </div>
+        </div>
+    </section>
+    <!--footer kraj-->
+
+    <!--backToTop dugme-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+
+    <script>
+    
+    document.getElementById("signup").addEventListener("click", signup);
+
+        function signup(event) {
+            event.preventDefault();
+
+            const firstname = document.getElementById("firstname").value;
+            const lastname = document.getElementById("lastname").value;
+            const email = document.getElementById("email").value;
+            const pass = document.getElementById("pass").value;
+            const pass2 = document.getElementById("pass2").value;
+
+			if (!valid(firstname, lastname, email, pass, pass2)) {
+				return;
+			}
+			
+            if (pass !== pass2) {
+                alert('Your passwords are different!');
+                return;
+            }
+
+            save(firstname, lastname, email, pass);
+        }
+
+        function save(firstname, lastname, email, pass) {
+            let users = [];
+            const newUser = {
+                    firstname: firstname,
+                    lastname: lastname,
+                    email: email,
+                    pass: pass
+                };
+
+            if (localStorage.getItem("users")) {
+                users = JSON.parse(localStorage.getItem("users"));
+                
+                if (!users.find(user => user.email === newUser.email)) {
+                    users.push(newUser);
+                    localStorage.setItem("users", JSON.stringify(users));
+                    alert(`User uspesno registrovan!`);
+                    location.assign("index.html");
+                } else {
+                    alert(`User ${email} already exist!`);
+                }
+            } else { 
+                users.push(newUser);
+                localStorage.setItem("users", JSON.stringify(users));
+                alert(`User uspesno registrovan!`);
+                location.assign("index.html");
+            }
+        }
+
+		function valid(firstname, lastname, email, pass, pass2) {
+			if (firstname.trim().length < 4) {
+				alert('Ime mora da ima bar 4 slova!');
+				return false;
+			} else if (lastname.trim().length < 4) {
+				alert('Prezime mora da ima bar 4 slova!');
+				return false;
+			} else if (!validEmail(email)) {
+				alert('Uneli ste neispravnu mejl adresu!');
+				return false;
+			} else if (pass.trim().length < 6) {
+				alert('Sifra mora da ima bar 6 karaktera!');
+				return false;
+			}
+			
+			return true;
+		}
+		
+		function validEmail(email) {
+			const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			return re.test(String(email).toLowerCase());
+		}
+    
+    </script>
+</body>
+
+</html>
