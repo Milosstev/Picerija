@@ -3,10 +3,9 @@ body {
    
 }
 
-.transparent {
+ .transparent {
     background: rgba(0,0,0,0.7);
-   
-}
+   }
 
 
 .nav-link {
@@ -29,8 +28,6 @@ body {
 #logo {
     width: 120px;
     height: 120px;
-    
-    
 }
 
 .box {
@@ -66,13 +63,14 @@ body {
     color: white;
 }
 
+/* kontakt ikonice */
   .ikona {
     font-size: 3em;
     color: #F15025;
  }   
 
 
-
+/* footer pocetak */
 #footer {
     padding: 1em 2em;
     background-color: #2A2B2A;
@@ -109,6 +107,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* footer kraj */
 
 @media screen and (max-width:567px) {
     .box {
