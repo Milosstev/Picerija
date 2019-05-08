@@ -3,6 +3,7 @@ body {
    
 }
 
+/*pocetak nav*/
 .transparent {
     background: rgba(0,0,0,0.7);
    
@@ -32,6 +33,7 @@ body {
     
     
 }
+/* nav kraj */
 
 /* galerija */
 .container {
@@ -56,7 +58,7 @@ body {
     cursor: pointer;
   }
   
-  /* Fade in animation */
+  /* Fade in animacija */
   @keyframes fadeIn {
     to {
       opacity: 1;
@@ -101,10 +103,7 @@ body {
     padding-top: 1em;
 }
 
-
-
-
-
+/* footer pocetak */
 
 #footer {
     padding: 4em 2em;
@@ -143,10 +142,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
-
+/* footer kraj */
 
 /* backToTop dugme */
 #myBtn {

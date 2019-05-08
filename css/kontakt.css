@@ -2,7 +2,7 @@ body {
     font-family: 'Frijole', cursive;
    
 }
-
+/* nav pocetak */
  .transparent {
     background: rgba(0,0,0,0.7);
    }
@@ -29,6 +29,9 @@ body {
     width: 120px;
     height: 120px;
 }
+/* kraj nav */
+
+/* pocetak header */
 
 .box {
     height: 100%;
@@ -62,6 +65,7 @@ body {
 .heading h2  {
     color: white;
 }
+/* kraj headera */
 
 /* kontakt ikonice */
   .ikona {
